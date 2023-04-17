@@ -13,6 +13,7 @@ This repository is divided into three directories:
 
 All implementations begin with tunable parameters if they exist.
 
+
 `WBLPN.sage`
 ------------
 This file is the reference implementation of the adaptation of the algorithm "Pooled Gauss" for white-box cryptography. Executing the code will apply WBLPN to random inputs I=20 times, and see if it returns a solution, which in that case would be a false positive. Thereafter, it will apply WBLPN to random inputs that contain a solution for the defined noise rate. If the algorithm does not manage to find one or finds an incorrect one, it prints the number of noised equations of Mpool. Indeed, even if tau =1/4, we cannot be sure that Mpool will not contain more than 1/4 of equations with noise=1.
