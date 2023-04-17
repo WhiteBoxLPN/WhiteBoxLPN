@@ -1,7 +1,7 @@
 White-Box-LPN
 =============
 
-This repository contains all implementations and time samples related to our submission called **LPN-based Attacks in the White-box Setting** to the CHES 2023.
+This repository contains all implementations and time samples related to the paper **LPN-based Attacks in the White-box Setting**.
 
 This repository is divided into three directories:
 
